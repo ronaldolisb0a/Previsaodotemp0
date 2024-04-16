@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
+}
+
+body {
+   
+    background-image: url("https://source.unsplash.com/1600x900/?landscape"); /*Imagem de fundo*/
+    background-size: cover;
+    height: 100vh; /*Altura*/
+    width: 100vw; /*Largura*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.caixa-maior {
+    background-color:black; /*Cor da caixa*/
+    opacity: 0.8; /*Opacidade da caixa*/
+    width: 95%; /*Largura*/
+    max-width: 450px;/*Largura maxima*/
+    border-radius: 25px; /*Arredondar bordas*/
+    padding: 20px;
+
+}
+
+.lupa {
+    height: 30px;
+    width: 30px;
+}
+
+button {
+
+border: none;   
+padding: 15px;
+background-color: #7c7c7c2b;
+cursor: pointer;
+border-radius: 50%;
+float: right;
+transition: all 0.8s;
+}
+
+button:hover {
+    box-shadow: 1px 2px 20px #666666;
+    color: #fff;
+    border: none;
+  }
+
+  input {
+
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #5050502b;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.temp {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 28px;
+}
